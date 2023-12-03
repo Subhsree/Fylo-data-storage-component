@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+ 
+</head>
+<body>
+  <!--main-content start-->
+  <div class="main-container">
+        <!--first container start-->
+        <div class="first-container">
+              <div class="logo">
+                <img src="images/logo.svg" alt="Fylo">
+              </div>
+              <div class="processes">
+                    <div class="process-items">
+                      <img src="images/icon-document.svg" alt="document">
+                    </div>
+                    <div class="process-items">
+                      <img src="images/icon-folder.svg" alt="folder">
+                    </div>
+                    <div class="process-items">
+                      <img src="images/icon-upload.svg" alt="upload">
+                    </div>
+              </div>
+        </div>
+        <!--first container end-->
+        <!--second container start-->
+        <div class="second-container raleway ">           
+                  <label for="storage-used">You’ve used <span class=" highlight" >815 GB</span> of your storage</label>
+                  <input type="range" name="storage-used" id="storage-used" min="0" max="1000" value="815">
+                  <span class="highlight"> 0 GB</span>
+                  <span class="highlight"id="max-value">1000 GB</span>           
+        </div>
+            <!--second container end-->
+        <div class="box">
+              <span class="raleway" id="data">815 </span> GB LEFT
+              <div class="triangle">
+              </div>
+        </div>
+  </div>
+      <!--main-content-end-->
+  <!--footer start-->
+  <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <!--footer end-->
+</body>
+</html>
